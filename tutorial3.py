@@ -3,6 +3,8 @@ from enum import Enum
 
 app = FastAPI()
 
+## Part 3: Query Parameters
+
 fake_items_db  = [{"item_name": "Foo"}, {"item_name":"Bar"}, {"item_name":"Bat"}]
 
 @app.get("/items")

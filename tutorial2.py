@@ -16,6 +16,7 @@ async def post():
 async def put():
     return {"message": "hello from the put route"}
 
+## Part 2: Path Parameters
 @app.get("/users")
 async def list_users():
     return {"message": "list users route"}
